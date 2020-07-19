@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(75, 66, 66);
+}
+header{
+    padding: 5px;
+    background-color: white;
+    border-radius: 30px 30px 0px 0px;
+    margin: 0px;
+    background: -webkit-linear-gradient(gray 0%, darkorange 100%);
+}
+.reslogo{
+    width: 90px;
+    position: relative;
+    left: 5%;
+    border-radius: 20px;
+    float: left;
+}
+h1{
+    width: 50%;
+    padding: 1%;
+    color: darkorange;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    background-color: darkred;
+}
+.menu{
+    height: 200px;
+    padding: 2%;
+    margin: 0px;
+    text-align: center;
+    background-color: maroon;
+}
+.menu img{
+    width: 28%;
+    max-width: 290px;
+    height: 200px;
+    padding: 1%;
+    border-radius: 20px;
+    margin-right: 2%;
+    box-sizing: border-box;
+}
+.left{
+    float: left;
+    background-color: darkorange;
+    width: 50vw;
+    max-width: 500px;
+    height: 75vh;
+    margin-bottom: 0px;
+}
+.left img{
+    display: block;
+    width: 35vw;
+    height: 210px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+.left img:hover{
+    transform: rotate(360deg);
+    transition: transform 0.6s;
+}
+.right{
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgb(75, 66, 66);
+}
+.right ul li{
+    padding: 10px;
+    margin: 1%;
+}
+.right li:hover{
+    background-color: darkred;
+    background: -webkit-linear-gradient(right ,gray 0%, maroon 100%);
+}
+.right ul{
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 10px 0px 0px 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.index{
+    height: 800px;
+    background-image: url(images/restaurant4.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 900px;
+}
+.page1{
+    width: 50%;
+    height: 30%;
+    max-width: 370px;
+    max-height: 235px;
+    margin: 0px auto 0px auto;
+    padding: 15px;
+    display: block;
+    border-radius: 30px;
+    filter: brightness(1.5);
+}
+.page1:hover , .name:hover{
+    transform: rotate(360deg);
+    transition: transform 0.6s;
+    box-shadow: 0px 1px 1px 2px #cccccc;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+nav li{
+    width: 13%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 140%;
+    display: inline-block;
+}
+nav a{
+    color: white;
+    display: block;
+    padding-left: 15px;
+    transition: 0.6s background-color;
+}
+nav a:hover{
+    background-color: darkgoldenrod;
+}
+nav li li{
+    font-size: .9em;
+}
+nav > ul > li{
+    text-align: center;
+}
+nav > ul > li > a{
+    padding-left: 0;
+}
+nav li ul{
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+nav li ul li{
+    width: 99%;
+    background-color: gray;
+    border: none;
+    text-align: center;
+}
+nav li:hover ul{
+    display: block;
+}
+nav li ul li{
+    display: block;
+}
+.gallery{
+    text-align: center;
+    background: url(images/restaurant4.jpg) no-repeat;
+    background-size: cover;
+}
+.name{
+    height: 250px;
+    width: 50%;
+    max-width: 300px;
+    margin: 10px 10px 15px 5px;
+    position: relative;
+    border: 10px solid gray;
+    overflow: hidden;
+    display: inline-block;
+}
+.name span{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: black;
+    color: #fff;
+    opacity: .8;
+}
+.name img{
+    width: 100%;
+    height: 100%;
+}
+.contact{
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+    background-image: url(images/restaurant4.jpg);
+}
+.contact p:last-child{
+    margin-bottom: 0px;
+    padding: 10px;
+}
+.contact div{
+    display: inline-block;
+}
+.contact div:first-child{
+    width: 500px;
+}
+#about img{
+    width: 100%;
+}
+footer{
+    clear: both;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1%;
+    border-radius: 0px 0px 30px 30px;
+}
